@@ -6,6 +6,12 @@ public class GithubDemo2 {
 
 		System.out.println("My first github commit....");
 		
+		printString("NoorTeck");
+		
+	}
+	
+	public static void printString(String str) {
+		System.out.println(str);
 	}
 
 }
