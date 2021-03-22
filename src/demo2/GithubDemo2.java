@@ -8,6 +8,8 @@ public class GithubDemo2 {
 		
 		printString("NoorTeck");
 		
+		callPrintStringMethod();
+		
 	}
 	
 	public static void printString(String str) {
