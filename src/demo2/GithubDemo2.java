@@ -15,9 +15,10 @@ public class GithubDemo2 {
 	}
 	
 	//new String VAR
-	String name = "Ahmad";
+	static String name = "Ahmad";
 	
 	
-
-
+	public static void callPrintStringMethod() {
+		printString(name);
+	}
 }
