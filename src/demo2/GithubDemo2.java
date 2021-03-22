@@ -13,5 +13,11 @@ public class GithubDemo2 {
 	public static void printString(String str) {
 		System.out.println(str);
 	}
+	
+	//new String VAR
+	String name = "Ahmad";
+	
+	
+
 
 }
