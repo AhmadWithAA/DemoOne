@@ -17,10 +17,10 @@ public class GithubDemo2 {
 	}
 	
 	//new String VAR
-	static String name = "Ahmad";
+	 String name = "Ahmad";
 	
 	
-	public static void callPrintStringMethod() {
-		printString(name);
+	public String getName (String name){
+	name = this.name;
 	}
 }
