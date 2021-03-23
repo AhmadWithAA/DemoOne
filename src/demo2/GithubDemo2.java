@@ -7,9 +7,7 @@ public class GithubDemo2 {
 		System.out.println("My first github commit....");
 		
 		printString("NoorTeck");
-		
-		callPrintStringMethod();
-		
+				
 	}
 	
 	public static void printString(String str) {
@@ -19,8 +17,9 @@ public class GithubDemo2 {
 	//new String VAR
 	 String name = "Ahmad";
 	
-	
-	public String getName (String name){
-	name = this.name;
+	public String fName(String name) {
+		name = this.name;
+		
+		return name;
 	}
 }
